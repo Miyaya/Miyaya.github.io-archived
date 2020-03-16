@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous")
+        link(rel="stylesheet" href="assets/css/style.css")
+
+        title PetitBon
+    body
+        script(src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous")
+        script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous")
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous")
+  
+        header
+            a.navbar-brand(href='index.html') PetitBon
+            //- b-navbar (b-nav-fill, b-nav)
+            nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top
+                button.navbar-toggler(data-target='#petit-nav', data-toggle='collapse', aria-controls='petit-nav', aria-expanded='false', aria-label='Toggle navigation')
+                    span.navbar-toggler-icon 
+                .collapse.navbar-collapse#petit-nav
+                    ul.navbar-nav.mr-auto
+                        li.nav-item.active
+                            a.nav-link(href='#')
+                                Item About Me 
+                                span.sr-only (current)
+                        li.nav-item
+                            a.nav-link.disabled(href='#', tabindex='-1', aria-disabled='true')
+                                Item Blog
+
+                        li.nav-item.dropdown
+                            a.nav-link.dropdown-toggle(href='#' id='navbarDropdownMenuLink' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') Dropdown link
+                            div.dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
+                                a.dropdown-item(href='#') Action
+                                a.dropdown-item(href='#') Another action
+                                a.dropdown-item(href='#') Something else here
+                        li.nav-item.active
+                            a.nav-link(href='#')
+                                Item Contact Me
+                        li.nav-item.active
+                            a.nav-link(href='#')
+                                Item CV
+                    
+            
+        aside 
+        section.wrapper#main
+            .inner
+                header.align-center
+                    h1 Miya Lee
+                    p A software engineer who loves animation, traveling, and art
+                .image.fit
+                    img.main-me(src="images/main-me.jpg" alt="")
+                p Compuster Sciences, National Taiwan Normal University, Taiwan
+                p Atmospheric Sciences, National Taiwan University, Taiwan (Ungrauted)
+        footer
