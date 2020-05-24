@@ -12,7 +12,21 @@ html(lang="en")
         script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous")
   
         header 
-        nav
+        nav.navbar.sticky-top.navbar-expand-md.navbar-light.bg-light
+            .container-fluid
+                a.navbar-brand.mx-auto(href=".") PetitBon
+                button.navbar-toggle.collapsed.d-sm-block.d-md-none(type="button" data-toggle="collapse" data-target="#navbar-collapse-main")                    
+                    span.navbar-toggler-icon
+                .collapse.navbar-collapse#navbar-collapse-main
+                    //- ul.nav.navbar-nav.mr-auto
+                    ul.nav.navbar-nav.ml-auto
+                        li.nav-item
+                            a.nav-link(href="#") ABOUT
+                        li.nav-item
+                            a.nav-link(href="#") PROJECTS
+                        li.nav-item
+                            a.nav-link(href="#") RÉSUMÉ
+
         article.row.justify-content-center
             section.namecard.col-10.col-sm-8.col-md-6.col-xl-4
                 h2 Miya Lee
