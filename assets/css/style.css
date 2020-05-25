@@ -5,8 +5,36 @@
   font-size: 100%;
 }
 
+body {
+  background-color: #eeeeee;
+}
+
+.bg-lightgray {
+  background-color: #eeeeee;
+}
+
+.bg-yellow {
+  background-color: #ffe066;
+}
+
+img.pb-rec {
+  height: 74px;
+}
+
+nav.navbar, .nav-link {
+  color: #333333;
+}
+
+nav.navbar {
+  border-bottom: 3px solid;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333333;
+}
+
 article {
-  background-color: #ffccdd;
+  background-color: #ffdee9;
 }
 
 .namecard {
@@ -71,13 +99,15 @@ article {
   z-index: 10;
 }
 
-header .navbar-brand {
-  color: #f6755e;
-  font-family: "Pacifico", cursive;
-  font-size: 2.5em;
-  letter-spacing: 2px;
-  margin-top: -5px;
-  text-decoration: none;
-  display: inline-block;
+.about {
+  padding: 50px 0;
+}
+
+footer {
+  border-top: 3px solid;
+}
+
+footer span {
+  margin: 15px;
 }
 /*# sourceMappingURL=style.css.map */
