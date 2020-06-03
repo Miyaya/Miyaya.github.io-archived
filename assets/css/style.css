@@ -103,6 +103,33 @@ article {
   padding: 50px 0;
 }
 
+.about h2 {
+  margin-bottom: 16px;
+}
+
+.about .main-img-pic.d-md-none {
+  margin-bottom: 12px;
+  border-radius: 100%;
+}
+
+.about .social-link {
+  font-size: 16px;
+}
+
+.about .social-link a {
+  color: #333333;
+}
+
+.about .container-fluid {
+  margin: 0;
+}
+
+.main-img-pic {
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
 footer {
   border-top: 3px solid;
 }

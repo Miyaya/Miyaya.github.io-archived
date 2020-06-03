@@ -6,7 +6,7 @@ html(lang="en")
         link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous")
         link(rel="stylesheet" href="assets/css/style.css")
         link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css")
-        title PetitBon - Miya LEE
+        title PetitBon - Miya's Personal Website:)
     body
         script(src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous")
         script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous")
@@ -17,7 +17,7 @@ html(lang="en")
             .mx-auto.d-sm-flex.d-block.flex-sm-nowrap.flex-column
                 //- a.navbar-brand.mx-auto(href=".") PetitBon
                 a.nav-brand(href=".")
-                    img.pb-rec(src="images/pb-rec-transparent.png" alt="Petit Bon") 
+                    img.pb-rec(src="public/images/pb-rec-transparent.png" alt="Petit Bon") 
                 button.navbar-toggle.collapsed.d-sm-block.d-md-none(type="button" data-toggle="collapse" data-target="#navbar-collapse-main")                    
                     span.navbar-toggler-icon
                 .collapse.navbar-collapse#navbar-collapse-main
@@ -28,7 +28,7 @@ html(lang="en")
                         li.nav-item
                             a.nav-link(href="#") Projects
                         li.nav-item
-                            a.nav-link(href="#") Resume
+                            a.nav-link(href="public/files/resume_miyalee2020.pdf") Resume
         header
         //- article.row.justify-content-center
             section.namecard.col-10.col-sm-8.col-md-6.col-xl-4
@@ -43,20 +43,21 @@ html(lang="en")
                 .circle.circle1
                 .circle.circle2
         .about
-            .container-fluid
+            .container-fluid.row
                 h2.col-12 Hello, it's Miya. (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 
+                img.main-img-pic.d-md-none(src="public/images/main-me-exhibition.jpg")
                 .self-intro.col-sm-12.col-md-6
-                    p I am Miya Lee, a software engineer and web developer graduate from National Taiwan Normal University, Taiwan, with a B.S. in computer science and information engineering.
-                    p I devote myself to constructing useful applications that inspire and assist people to have a better life. I expertise in C/C++, JavaScript(ES6), Node.js(Express), and Python. I am currently looking for full-time opportunities in web development (back-end or full-stack), software engineering, and game programming.
-                    | I love animations, picture books, and traveling; I'm also addicted to Netflix and YouTube.
-                    p Now I live in The Hague, Netherlands, but it doesn't matter because of the corona, I always stay home.
+                        p I am Miya Lee, a software engineer and web developer who graduated from National Taiwan Normal University, Taiwan, with a B.S. in computer science and information engineering.
+                        p I devote myself to constructing useful applications that inspire and assist people to have a better life. I expertise in C/C++, JavaScript(ES6), Node.js(Express), and Python. I am currently looking for full-time opportunities in web development (back-end or full-stack), software engineering, and game programming.
+                        | I love animations, picture books, and traveling; I'm also addicted to Netflix and YouTube.
+                        p Now I live in The Hague, Netherlands, but it doesn't matter because of the corona. I always stay home.
 
-                .social-link
-                    h4 Let's Get Social
-                    i.far.fa-file-pdf.fa-2x.col-12
-                    i.far.fa-envelope.fa-2x.col-12
-                    i.fab.fa-linkedin.fa-2x.col-12
-                    i.fab.fa-instagram.fa-2x.col-12
+                .main-img.d-none.d-md-block.col-md-6
+                    .main-img-pic.main-img-bg-bottom
+                    .main-img-pic.main-img-bg-middle
+                    img.main-img-pic(src="public/images/main-me-campus.jpg")
+
+                
 
 
         footer.container-fluid.fixed-bottom.bg-yellow
