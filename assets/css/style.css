@@ -124,6 +124,12 @@ article {
   margin: 0;
 }
 
+.dropdown-menu {
+  border: 3px solid #333333;
+  border-radius: 0;
+  background-color: #ffe066;
+}
+
 .main-img-pic {
   width: 60%;
   margin: auto;
