@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous")
+        link(rel="stylesheet" href="../../assets/css/style.css")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css")
+        title Projects *PetitBon*
+    body
+        script(src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous")
+        script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous")
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous")
+  
+        nav.navbar.sticky-top.navbar-expand-md.navbar-light.bg-yellow
+            //- .container-fluid
+            .mx-auto.d-sm-flex.d-block.flex-sm-nowrap.flex-column
+                //- a.navbar-brand.mx-auto(href=".") PetitBon
+                a.nav-brand(href="../../index.html")
+                    img.pb-rec(src="../../public/images/pb-rec-transparent.png" alt="Petit Bon") 
+                button.navbar-toggle.collapsed.d-sm-block.d-md-none(type="button" data-toggle="collapse" data-target="#navbar-collapse-main")                    
+                    span.navbar-toggler-icon
+                .collapse.navbar-collapse#navbar-collapse-main
+                    //- ul.nav.navbar-nav.mr-auto
+                    ul.nav.navbar-nav.mx-auto.darkgray
+                        li.nav-item
+                            a.nav-link(href="../../index.html") About
+                        li.nav-item
+                            a.nav-link(href=".") Projects
+                        //- li.nav-item.dropdown
+                            a.nav-link.dropdown-toggle(data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Blog
+                            .dropdown-menu
+                                a.dropdown-item(href=".") Tech
+                                a.dropdown-item(href="../traveling/index.html") Traveling
+                        li.nav-item
+                            a.nav-link(href="../../public/files/resume_miyalee2020.pdf") Resume
+        header
+        .index-page
+            .container
+                button.back-to-home(onclick="window.location.href='../index.html'") Back to home
+                //- h2.index Index
+                .laravel
+                .chatroom
+                    .chatroom-content.command-line
+                    .chatroom-content.signal-r
+                .app
+                .csiecamp
+                .hackntu2016
+                .hackntu2017
+                .maya
+                .procreate
+                
+
+        
+        footer.container-fluid.fixed-bottom.bg-yellow
+            .copyright.text-center 
+                small Copyright &copy; 2020 PETITBON written by Miya Lee
