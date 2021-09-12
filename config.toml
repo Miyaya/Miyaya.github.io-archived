@@ -1,0 +1,9 @@
+# basic setting
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'This is blog of Miya'
+
+theme="Origin"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
