@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on This is blog of Miya</title>
-    <link>https://miyaya.github.io/posts/</link>
+    <link>https://miyaya.github.io/index.html/posts/</link>
     <description>Recent content in Posts on This is blog of Miya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Sep 2021 22:37:29 +0200</lastBuildDate><atom:link href="https://miyaya.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Sep 2021 22:37:29 +0200</lastBuildDate><atom:link href="https://miyaya.github.io/index.html/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aboutme</title>
-      <link>https://miyaya.github.io/2021/09/aboutme/</link>
+      <link>https://miyaya.github.io/index.html/2021/09/aboutme/</link>
       <pubDate>Sun, 12 Sep 2021 22:37:29 +0200</pubDate>
       
-      <guid>https://miyaya.github.io/2021/09/aboutme/</guid>
+      <guid>https://miyaya.github.io/index.html/2021/09/aboutme/</guid>
       <description>Hello, it&amp;rsquo;s Miya. (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ I am Miya Lee, a Paris based software engineer who graduated from National Taiwan Normal University, Taiwan, with a B.S. in computer science and information engineering.
 I devote myself to constructing useful applications that inspire and assist people to have a better life. I expertise in C/C++, JavaScript(Node.js with Express), and Python. I currently look forward to a back-end fulltime.
 Also, I&amp;rsquo;m learning French which I personal think it&amp;rsquo;s even harder than any programming language I have learnt.</description>
