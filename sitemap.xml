@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://miyaya.github.io/2021/09/aboutme/</loc>
+    <loc>https://miyaya.github.io/index.html/2021/09/aboutme/</loc>
     <lastmod>2021-09-12T22:37:29+02:00</lastmod>
   </url><url>
-    <loc>https://miyaya.github.io/posts/</loc>
+    <loc>https://miyaya.github.io/index.html/posts/</loc>
     <lastmod>2021-09-12T22:37:29+02:00</lastmod>
   </url><url>
-    <loc>https://miyaya.github.io/</loc>
+    <loc>https://miyaya.github.io/index.html/</loc>
     <lastmod>2021-09-12T22:37:29+02:00</lastmod>
   </url><url>
-    <loc>https://miyaya.github.io/categories/</loc>
+    <loc>https://miyaya.github.io/index.html/categories/</loc>
   </url><url>
-    <loc>https://miyaya.github.io/tags/</loc>
+    <loc>https://miyaya.github.io/index.html/tags/</loc>
   </url>
 </urlset>
