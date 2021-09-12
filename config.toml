@@ -1,5 +1,5 @@
 # basic setting
-baseURL = 'http://example.org/'
+baseURL = 'https://miyaya.github.io/'
 languageCode = 'en-us'
 title = 'This is blog of Miya'
 
