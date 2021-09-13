@@ -1,9 +1,38 @@
-# basic setting
-baseURL = 'http://example.org/'
+baseURL = 'http://miyaya.github.io/'
 languageCode = 'en-us'
-title = 'This is blog of Miya'
-
-theme="Origin"
+title = "Miya's Blog"
+author = "Miya Lee"
+copyright = "© 2021, Miya"
+theme = "Origin" 
 
 [permalinks]
   posts = "/:year/:month/:title/"
+
+[params]
+  description = ""
+  featured = false
+  cssonly = false
+
+  [params.socials]
+    facebook = ""
+    twitter = ""
+    instagram = "https://www.instagram.com/miyaya.journal/"
+    youtube = "https://www.youtube.com/channel/UCjCgzu6YRe8LJiPBkbRkVAg"
+    github = "https://github.com/Miyaya"
+    gitlab = ""
+    linkedin = "https://www.linkedin.com/in/miya-lee-9bb570132/"
+    slack = ""
+    stackoverflow = ""
+    medium= "https://miya850604.medium.com/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "2021/09/aboutme/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
