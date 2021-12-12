@@ -1,4 +1,4 @@
-baseURL = 'http://miyaya.github.io/'
+baseURL = 'https://miyaya.github.io/'
 languageCode = 'en-us'
 title = "Miya's Blog"
 author = "Miya Lee"
