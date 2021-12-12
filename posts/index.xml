@@ -7,13 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2021, Miya</copyright>
-    <lastBuildDate>Sun, 12 Sep 2021 22:37:29 +0200</lastBuildDate><atom:link href="https://miyaya.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 15:55:38 +0100</lastBuildDate><atom:link href="https://miyaya.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Aboutme</title>
-      <link>https://miyaya.github.io/2021/09/aboutme/</link>
+      <title>Relocation to paris</title>
+      <link>https://miyaya.github.io/2021/12/relocation-to-paris/</link>
+      <pubDate>Sun, 12 Dec 2021 15:55:38 +0100</pubDate>
+      
+      <guid>https://miyaya.github.io/2021/12/relocation-to-paris/</guid>
+      <description>2021年12月5日，我從台北桃園機場離境，我心想這次離境，是真的跟台灣的暖冬、還有輕鬆的日子告別，重回尋找工作的循環。
+前陣子跟學生時期打工的店長敘舊，我們那天在一個DevOps的活動會場，他指著一本「到日本當工程師」的書說，你也該出本書，就叫嫁到巴黎當人妻工程師，人妻那邊畫掉，他補充道。 我覺得也是挺可愛的，因此想說不妨將這段過程寫下來，或許記錄下總能有點用。
+才剛落地不久，就被滿心準備迎接我的男友傳染了感冒。冬天的歐洲大概就是這樣歡迎旅客的。
+雖說出發前給自己打了很多強心針，洗腦式的跟自己說一定可以找到dev/eng類的工作，但在假期期間落地，總還是不免想拖延到聖誕節結束（或更久）。恰巧的是，剛好有個朋友詢問在歐洲工作的事。 時運就是這麼剛好，彷彿命運說著
+ 喔拜託、你已經休息夠久了！趕快動起來！
+ 稍微看了一下現在就業市場的情況與自己的技能點分佈，應該花一些時間可以找到一份backend的工作。只不過不滿足於現況的我，想著是否能突破web的領域，做一些別的domain的事&amp;hellip; 因此，如果剛好有人看到這篇文章，歡迎推薦時下的新技術、或新工具:)</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://miyaya.github.io/2021/09/about-me/</link>
       <pubDate>Sun, 12 Sep 2021 22:37:29 +0200</pubDate>
       
-      <guid>https://miyaya.github.io/2021/09/aboutme/</guid>
+      <guid>https://miyaya.github.io/2021/09/about-me/</guid>
       <description>Hello, it&amp;rsquo;s Miya. (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ I am Miya Lee, a Paris based software engineer who graduated from National Taiwan Normal University, Taiwan, with a B.S. in computer science and information engineering.
 I devote myself to constructing useful applications that inspire and assist people to have a better life. I expertise in C/C++, JavaScript(Node.js with Express), and Python. I currently look forward to a back-end fulltime.
 Also, I&amp;rsquo;m learning French which I personal think it&amp;rsquo;s even harder than any programming language I have learnt.</description>
