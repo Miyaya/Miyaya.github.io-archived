@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-	<meta name="generator" content="Hugo 0.87.0" />
     <meta charset="UTF-8">
     <title>Miya&#39;s Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="description" content="" />
 
-    <meta property="og:title" content="Miya&#39;s Blog" />
+    <meta property="og:title" content="Sliding_window_solution" />
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://miyaya.github.io/" />
-    <meta itemprop="name" content="Miya&#39;s Blog">
+    <meta property="og:url" content="https://miyaya.github.io/2022/02/sliding_window_solution/" />
+    <meta itemprop="name" content="Sliding_window_solution">
     <meta itemprop="description" content="">
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="Miya&#39;s Blog"/>
+    <meta name="twitter:title" content="Sliding_window_solution"/>
     <meta name="twitter:description" content=""/>
 
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -25,84 +24,36 @@
 </head>
 <body>
     <header>
-  <div class="header header-frame">
-    <div>
-      <div class="header__title ">Miya&#39;s Blog</div>
-      
-        <div class="header__description"></div>
-      
-    </div>
-    <nav class="header-nav">
-      <ul class="header-nav-list header-nav-list--menu">
-        
-        
+    <div class="header header-frame">
+        <div>
           
-            <li class="header-nav-list__item">
-              <a class="header-nav-list__link" href="2021/09/aboutme/">
-                
-                <span>About Me</span>
-              </a>
-            </li>
+            <h1 class="header__title">Sliding_window_solution</h1>
           
-        
-      </ul>
-      <button class="header-nav-list__nav-btn ">navigation</button>
-      <nav class="navigation">
-    <div class="navigation__wrapper">
-        <div class="navigation__container">
-            <svg
-                width="240"
-                height="72"
-                viewBox="0 0 240 72"
-                class="mb-header-nav__title"
-                >
-                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
-                Tags
-                </text>
-            </svg>
-            <ul class="navigation__list">
-                
-                
-                
-            </ul>
+            
         </div>
-        <div class="navigation__container">
-            <svg
-                width="240"
-                height="72"
-                viewBox="0 0 240 72"
-                class="mb-header-nav__title"
-                >
-                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
-                Menu
-                </text>
-            </svg>
-            <ul class="navigation__list">
+        <nav class="header-nav">
+            <ul class="header-nav-list header-nav-list--menu">
                 
                 
                     
-                        <li class="navigation__list-item">
-                            <a class="navigation__link" href="2021/09/aboutme/">
-                                About Me
+                        <li class="header-nav-list__item">
+                            <a class="header-nav-list__link" href="2021/09/aboutme/">
+                                
+                                <span>About Me</span>
                             </a>
                         </li>
                     
                 
             </ul>
-        </div>
+            <button class="header-nav-list__nav-btn">navigation</button>
+        </nav>
+        <button class="mb-header__menu-btn">
+            <span class="mb-header__menu-btn-line"></span>
+            <span class="mb-header__menu-btn-line"></span>
+            <span class="mb-header__menu-btn-line"></span>
+        </button>
     </div>
-</nav>
-
-    </nav>
-    
-      <button aria-label="burger menu" class="mb-header__menu-btn">
-        <span class="mb-header__menu-btn-line"></span>
-        <span class="mb-header__menu-btn-line"></span>
-        <span class="mb-header__menu-btn-line"></span>
-      </button>
-    
-  </div>
-  <nav id="mobile-header-nav" class="mb-header-nav">
+    <nav id="mobile-header-nav" class="mb-header-nav">
   
   
   <button class="mb-header-nav__close-btn flex-center">
@@ -134,7 +85,7 @@
             </svg>
             <ul class="mb-header-nav-list">
                 
-                
+                    
                 
             </ul>
         </div>
@@ -168,81 +119,157 @@
 </header>
 
 
+
     <div id="content">
+<article class="post">
+  
+    <div class="post-content"><h1 id="sliding-window-解題技巧">Sliding Window 解題技巧</h1>
+<h6 id="tags-dsa-leetcode">tags: <code>DSA</code>, <code>LeetCode</code></h6>
+<p>Sliding Window使用左右指針將搜尋區間固定住，最佳的應用例子是可以把搜尋的時間複雜度維持在線性。
+實作上的基本概念就是在每次檢查針對題目要求更新window的大小。</p>
+<h2 id="rocket-實例">:rocket: 實例</h2>
+<p>這次選了兩道medium難度的題目，分別是
+#3 (Longest Substring Without Repeating Characters) 以及
+#438 (Find All Anagrams in a String)</p>
+<h3 id="3-longest-substring-without-repeating-characters">3. Longest Substring Without Repeating Characters</h3>
+<p>找出字串<code>s</code>中最長的不重複子字串。舉例來說，</p>
+<blockquote>
+<p>Input: s = &ldquo;abcabcbb&rdquo;
+Output: 3
+Input: s = &ldquo;bbbbb&rdquo;
+Output: 1
+Input: s = &ldquo;pwwkew&rdquo;
+Output: 3
+Input: s = &ldquo;aab&rdquo;
+Output: 2
+Input: s = &ldquo;dvdf&rdquo;
+Output: 3
+Input: s = &ldquo;qrsvbspk&rdquo;
+Output: 5
+Input: s = &ldquo;aabaab!bb&rdquo;
+Output: 3</p>
+</blockquote>
+<p><em>(有這麼多例子，就是因為我實在錯太多次了QQ)</em></p>
+<h4 id="演算法概念">演算法概念</h4>
+<p>我們可以利用兩個pointer指向window的左邊端點與右邊端點，並以集合的方式來檢查是否window中有重複的元素。</p>
+<ul>
+<li>如果沒有，就繼續把window擴大，同時取<strong>最長子字串長度</strong>len=max(set.size, len)。</li>
+<li>有的話，window得更新範圍，與此同時，集合當中的元素也要更新。更新的方法其實就是如果有重複，就把==重複的元素當中比較舊的==那個給移除掉。
+:::warning
+要注意的是，不僅僅是將左端點s[l]刪除，假設今天s[r]是與s[l*]重複，那從s[l]到s[l*]的元素都要從集合中刪掉!!
+:::</li>
+</ul>
+<p>以上面第一個例子來演練一次的話，完整過程就會如下</p>
+<pre><code>s = &quot;abcabcbb&quot;
+     lr        len=1(a)
+     l r       len=2(a,b)
+     l  r      len=3(a,b,c) -&gt; 此時s[r]重複(a)，將左邊的a移除
+s = &quot;abcabcbb&quot;
+      l r      len=3(b,c,a)
+      l  r     len=3(b,c,a) -&gt; 此時s[r]重複(b)，將左邊的b移除
+s = &quot;abcabcbb&quot;
+       l r     len=3(c,a,b)
+       l  r    len=3(c,a,b) -&gt; 此時s[r]重複(c)，將左邊的c移除
+s = &quot;abcabcbb&quot;
+        l r    len=3(a,b,c)
+        l  r   len=3(a,b,c) -&gt; 此時s[r]重複(b)，將左邊的a,b移除
+s = &quot;abcabcbb&quot;
+          lr   len=3(c,b)
+          l r  len=3(c,b) -&gt; 此時s[r]重複(b)，將左邊的c,b移除
+s = &quot;abcabcbb&quot;
+            l
+            r  len=3(b) *end*
+</code></pre><p><em>(放了很多次s字串，只是方便閱讀比對位置而已)</em></p>
+<h4 id="程式實作">程式實作</h4>
+<p>驗證過概念上沒問題了之後，實作的C++程式如下</p>
+<pre><code class="language-cpp=" data-lang="cpp=">int lengthOfLongestSubstring(string s) {
+    set&lt;char&gt; chars;
+    int l = 0, r = 1;
 
+    chars.insert(s[l]);
+    int len = chars.size();
 
+    if (s.length() == 0)
+        return 0;
+    while (r &lt; s.length()) {
+        if (chars.find(s[r]) == chars.end()) {
+            chars.insert(s[r]);
+            len = chars.size() &gt; len ? chars.size() : len;
+            r += 1;
+        } else { // remove all char before duplicated char
+            while (s[l] != s[r]) {
+                chars.erase(s[l]);
+                l += 1;
+            }
+            chars.erase(s[l]);
+            l += 1;
+        }
+    }
+    return len;
+}
+</code></pre><h3 id="438-find-all-anagrams-in-a-string">438. Find All Anagrams in a String</h3>
+<p>提供兩個字串<code>s</code>、<code>p</code>，回傳所有符合<code>p</code>是<code>s</code>的anagram的index。</p>
+<blockquote>
+<p>Anagram意思指僅使用一次包含的所有字元的排列組合。如以下例子
+Input: s = &ldquo;cbaebabacd&rdquo;, p = &ldquo;abc&rdquo;
+Output: [0,6]
+[0-2]的&quot;cba&quot;是p的anagram，而[6-8]的&quot;bac&quot;也是p的anagram。</p>
+</blockquote>
+<h4 id="演算法概念-1">演算法概念</h4>
+<p>一開始想到的方法，除了暴力法外，若想要把搜尋限制在線性，我想到可以用sliding window+數數的方法。
+也就是說，因為在此題中，s, p限制了內容只會是小寫字母，因此我們可以直接使用一個map將26個字母的數量存起來。同樣的，使用l+r指標，框住目前的window，使用r指標依序檢查s[r]是否有在p map當中，有的話那就減一，但如果扣到&lt;0，跟<strong>p字串不存在這個字母</strong>的情況一樣，那就移到下一個window檢查，也就是<code>l+=1</code>。</p>
+<p>當p的這個map每個字母都扣完了，代表目前這個window就是我們要找的anagram。</p>
+<h4 id="程式實作-1">程式實作</h4>
+<p>pMap代表p字串中各個字母的數量。pTotal是pMap的總和，一開始pTotal==p.size()。
+<code>pM</code>與<code>pT</code>是每個window的比較基準，因為每個符合的window都是anagram of p。<code>pM</code>與<code>pT</code>是從原本的pMap, pTotal copy過來的。</p>
+<pre><code class="language-cpp=" data-lang="cpp=">vector&lt;int&gt; findAnagrams(string s, string p) {
+    vector&lt;int&gt; indexs;
 
-<div class="post-list">
-    
-        <article class="post-item">
-        <div class="post-item-flex">
-            <a class="no-tag post-item__meta post-item--left" href="https://miyaya.github.io/2022/02/sliding_window_solution/">
-            <h2 class="post-item__title">Sliding_window_solution</h2>
-            <time class="post-item__date" datetime="2022-02-03">2022-02-03</time>
-        
-        </a>
-        
-        
-    </div>
-</article>
+    if(s.size()==0)
+        return indexs;
 
-    
-        <article class="post-item">
-        <div class="post-item-flex">
-            <a class="no-tag post-item__meta post-item--left" href="https://miyaya.github.io/2021/12/relocation-to-paris/">
-            <h2 class="post-item__title">Relocation to paris</h2>
-            <time class="post-item__date" datetime="2021-12-12">2021-12-12</time>
-        
-        </a>
-        
-        
-    </div>
-</article>
+    int pMap[26] = {0};
+    int pTotal=p.size();
 
-    
-        <article class="post-item">
-        <div class="post-item-flex">
-            <a class="no-tag post-item__meta post-item--left" href="https://miyaya.github.io/2021/09/about-me/">
-            <h2 class="post-item__title">About me</h2>
-            <time class="post-item__date" datetime="2021-09-12">2021-09-12</time>
-        
-        </a>
-        
-        
-    </div>
-</article>
+    for(int i=0; i&lt;p.size(); i++) {
+        pMap[p[i]-'a']+=1;
+    }
 
-    
+    int l=0, r=0;
+    for(int l=0; l&lt;s.size(); l++) {
+        int r=l, pT=pTotal;
+        int pM[26];
+        memcpy(pM, pMap, 26*sizeof(int));
+
+        while(r&lt;s.size() &amp;&amp; --pM[s[r]-'a']&gt;=0) {
+            pT-=1;
+            if(pT==0) {
+                indexs.push_back(l);
+            }
+            r+=1;
+        }
+    }
+
+    return indexs;
+}
+</code></pre><h2 id="小結">小結</h2>
+<p>使用兩個題目來解釋sliding window的概念，希望能幫助到也感到困惑的人。也提醒自己不要忘了主要的重點：使用l,r固定住檢查範圍，在每次檢查針對題目要求更新window的大小。</p>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+</article>
+<button class="floating-button">
+    <a class="floating-button__link" href="https://miyaya.github.io/">
+        <span>home</span>
+    </a>
+</button>
 
 
     </div>
     
-    <footer>
+    <footer class="post-footer">
     <div class="footer">
         
-            <div class="footer__copyright">© 2021, Miya</div>
+            <div>© 2021, Miya</div>
         
         <div class="footer__socials">
 
