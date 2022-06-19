@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Miya&#39;s website</title>
+        <link>https://miyaya.github.io/en/page/</link>
+        <description>Recent content in Pages on Miya&#39;s website</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 18 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://miyaya.github.io/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Archives</title>
+        <link>https://miyaya.github.io/en/archives/</link>
+        <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://miyaya.github.io/en/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>About Me</title>
+        <link>https://miyaya.github.io/en/about-me/</link>
+        <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://miyaya.github.io/en/about-me/</guid>
+        <description>&lt;h2 id=&#34;hello-its-miya-ﾉヮﾉﾟ&#34;&gt;Hello, it&amp;rsquo;s Miya. (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧&lt;/h2&gt;
+&lt;p&gt;I am Miya Lee, a Paris based software engineer who graduated from National Taiwan Normal University, Taiwan, with a B.S. in computer science and information engineering.&lt;/p&gt;
+&lt;p&gt;I devote myself to constructing useful applications that inspire and assist people to have a better life. I expertise in C/C++, JavaScript(Node.js with Express), and Python. I currently look forward to a back-end fulltime.&lt;/p&gt;
+&lt;p&gt;Also, I&amp;rsquo;m learning French which I personal think it&amp;rsquo;s even harder than any programming language I have learnt. I love animations, picture books, romantic comedy series and films, and traveling.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://miyaya.github.io/en/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://miyaya.github.io/en/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

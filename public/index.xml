@@ -1,49 +1,320 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Miya&#39;s Blog</title>
-    <link>https://miyaya.github.io/</link>
-    <description>Recent content on Miya&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© 2021, Miya</copyright>
-    <lastBuildDate>Thu, 03 Feb 2022 14:54:57 +0100</lastBuildDate><atom:link href="https://miyaya.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sliding_window_solution</title>
-      <link>https://miyaya.github.io/2022/02/sliding_window_solution/</link>
-      <pubDate>Thu, 03 Feb 2022 14:54:57 +0100</pubDate>
-      
-      <guid>https://miyaya.github.io/2022/02/sliding_window_solution/</guid>
-      <description>Sliding Window 解題技巧 tags: DSA, LeetCode Sliding Window使用左右指針將搜尋區間固定住，最佳的應用例子是可以把搜尋的時間複雜度維持在線性。 實作上的基本概念就是在每次檢查針對題目要求更新window的大小。
-:rocket: 實例 這次選了兩道medium難度的題目，分別是 #3 (Longest Substring Without Repeating Characters) 以及 #438 (Find All Anagrams in a String)
-3. Longest Substring Without Repeating Characters 找出字串s中最長的不重複子字串。舉例來說，
- Input: s = &amp;ldquo;abcabcbb&amp;rdquo; Output: 3 Input: s = &amp;ldquo;bbbbb&amp;rdquo; Output: 1 Input: s = &amp;ldquo;pwwkew&amp;rdquo; Output: 3 Input: s = &amp;ldquo;aab&amp;rdquo; Output: 2 Input: s = &amp;ldquo;dvdf&amp;rdquo; Output: 3 Input: s = &amp;ldquo;qrsvbspk&amp;rdquo; Output: 5 Input: s = &amp;ldquo;aabaab!</description>
-    </item>
-    
-    <item>
-      <title>Relocation to paris</title>
-      <link>https://miyaya.github.io/2021/12/relocation-to-paris/</link>
-      <pubDate>Sun, 12 Dec 2021 15:55:38 +0100</pubDate>
-      
-      <guid>https://miyaya.github.io/2021/12/relocation-to-paris/</guid>
-      <description>2021年12月5日，我從台北桃園機場離境，我心想這次離境，是真的跟台灣的暖冬、還有輕鬆的日子告別，重回尋找工作的循環。
-前陣子跟學生時期打工的店長敘舊，我們那天在一個DevOps的活動會場，他指著一本「到日本當工程師」的書說，你也該出本書，就叫嫁到巴黎當人妻工程師，人妻那邊畫掉，他補充道。 我覺得也是挺可愛的，因此想說不妨將這段過程寫下來，或許記錄下總能有點用。
-才剛落地不久，就被滿心準備迎接我的男友傳染了感冒。冬天的歐洲大概就是這樣歡迎旅客的。
-雖說出發前給自己打了很多強心針，洗腦式的跟自己說一定可以找到dev/eng類的工作，但在假期期間落地，總還是不免想拖延到聖誕節結束（或更久）。恰巧的是，剛好有個朋友詢問在歐洲工作的事。 時運就是這麼剛好，彷彿命運說著
- 喔拜託、你已經休息夠久了！趕快動起來！
- 稍微看了一下現在就業市場的情況與自己的技能點分佈，應該花一些時間可以找到一份backend的工作。只不過不滿足於現況的我，想著是否能突破web的領域，做一些別的domain的事&amp;hellip; 因此，如果剛好有人看到這篇文章，歡迎推薦時下的新技術、或新工具:)</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://miyaya.github.io/2021/09/about-me/</link>
-      <pubDate>Sun, 12 Sep 2021 22:37:29 +0200</pubDate>
-      
-      <guid>https://miyaya.github.io/2021/09/about-me/</guid>
-      <description>Hello, it&amp;rsquo;s Miya. (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ I am Miya Lee, a Paris based software engineer who graduated from National Taiwan Normal University, Taiwan, with a B.S. in computer science and information engineering.
-I devote myself to constructing useful applications that inspire and assist people to have a better life. I expertise in C/C++, JavaScript(Node.js with Express), and Python. I currently look forward to a back-end fulltime.
-Also, I&amp;rsquo;m learning French which I personal think it&amp;rsquo;s even harder than any programming language I have learnt.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Miyaㄉ網站</title>
+        <link>https://miyaya.github.io/</link>
+        <description>Recent content on Miyaㄉ網站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 03 Feb 2022 14:54:57 +0100</lastBuildDate><atom:link href="https://miyaya.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sliding Window 解題筆記</title>
+        <link>https://miyaya.github.io/p/sliding-window-%E8%A7%A3%E9%A1%8C%E7%AD%86%E8%A8%98/</link>
+        <pubDate>Thu, 03 Feb 2022 14:54:57 +0100</pubDate>
+        
+        <guid>https://miyaya.github.io/p/sliding-window-%E8%A7%A3%E9%A1%8C%E7%AD%86%E8%A8%98/</guid>
+        <description>&lt;p&gt;Sliding Window使用左右指針將搜尋區間固定住，最佳的應用例子是可以把搜尋的時間複雜度維持在線性。
+實作上的基本概念就是在每次檢查針對題目要求更新window的大小。&lt;/p&gt;
+&lt;h2 id=&#34;-實例&#34;&gt;🚀 實例&lt;/h2&gt;
+&lt;p&gt;這次選了兩道medium難度的題目，分別是
+#3 (Longest Substring Without Repeating Characters) 以及
+#438 (Find All Anagrams in a String)&lt;/p&gt;
+&lt;h3 id=&#34;3-longest-substring-without-repeating-characters&#34;&gt;3. Longest Substring Without Repeating Characters&lt;/h3&gt;
+&lt;p&gt;找出字串&lt;code&gt;s&lt;/code&gt;中最長的不重複子字串。舉例來說，&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Input: s = &amp;ldquo;abcabcbb&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Output: 3&lt;/li&gt;
+&lt;li&gt;Input: s = &amp;ldquo;bbbbb&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Output: 1&lt;/li&gt;
+&lt;li&gt;Input: s = &amp;ldquo;pwwkew&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Output: 3&lt;/li&gt;
+&lt;li&gt;Input: s = &amp;ldquo;aab&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Output: 2&lt;/li&gt;
+&lt;li&gt;Input: s = &amp;ldquo;dvdf&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Output: 3&lt;/li&gt;
+&lt;li&gt;Input: s = &amp;ldquo;qrsvbspk&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Output: 5&lt;/li&gt;
+&lt;li&gt;Input: s = &amp;ldquo;aabaab!bb&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Output: 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;(有這麼多例子，就是因為我實在錯太多次了QQ)&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;演算法概念&#34;&gt;演算法概念&lt;/h4&gt;
+&lt;p&gt;我們可以利用兩個pointer指向window的左邊端點與右邊端點，並以集合的方式來檢查是否window中有重複的元素。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果沒有，就繼續把window擴大，同時取&lt;strong&gt;最長子字串長度&lt;/strong&gt;len=max(set.size, len)。&lt;/li&gt;
+&lt;li&gt;有的話，window得更新範圍，與此同時，集合當中的元素也要更新。更新的方法其實就是如果有重複，就把==重複的元素當中比較舊的==那個給移除掉。
+:::warning
+要注意的是，不僅僅是將左端點s[l]刪除，假設今天s[r]是與s[l*]重複，那從s[l]到s[l*]的元素都要從集合中刪掉!!
+:::&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上面第一個例子來演練一次的話，完整過程就會如下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;s = &amp;#34;abcabcbb&amp;#34;
+     lr        len=1(a)
+     l r       len=2(a,b)
+     l  r      len=3(a,b,c) -&amp;gt; 此時s[r]重複(a)，將左邊的a移除
+s = &amp;#34;abcabcbb&amp;#34;
+      l r      len=3(b,c,a)
+      l  r     len=3(b,c,a) -&amp;gt; 此時s[r]重複(b)，將左邊的b移除
+s = &amp;#34;abcabcbb&amp;#34;
+       l r     len=3(c,a,b)
+       l  r    len=3(c,a,b) -&amp;gt; 此時s[r]重複(c)，將左邊的c移除
+s = &amp;#34;abcabcbb&amp;#34;
+        l r    len=3(a,b,c)
+        l  r   len=3(a,b,c) -&amp;gt; 此時s[r]重複(b)，將左邊的a,b移除
+s = &amp;#34;abcabcbb&amp;#34;
+          lr   len=3(c,b)
+          l r  len=3(c,b) -&amp;gt; 此時s[r]重複(b)，將左邊的c,b移除
+s = &amp;#34;abcabcbb&amp;#34;
+            l
+            r  len=3(b) *end*
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;em&gt;(放了很多次s字串，只是方便閱讀比對位置而已)&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;程式實作&#34;&gt;程式實作&lt;/h4&gt;
+&lt;p&gt;驗證過概念上沒問題了之後，實作的C++程式如下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;lengthOfLongestSubstring&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;chars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+
+    &lt;span class=&#34;n&#34;&gt;chars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;insert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]);&lt;/span&gt;
+    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;len&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;chars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;r&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;chars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;find&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;chars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;chars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;insert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]);&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;len&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;chars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;len&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;chars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// remove all char before duplicated char
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;            &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                &lt;span class=&#34;n&#34;&gt;chars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;erase&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]);&lt;/span&gt;
+                &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;chars&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;erase&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]);&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;438-find-all-anagrams-in-a-string&#34;&gt;438. Find All Anagrams in a String&lt;/h3&gt;
+&lt;p&gt;提供兩個字串&lt;code&gt;s&lt;/code&gt;、&lt;code&gt;p&lt;/code&gt;，回傳所有符合&lt;code&gt;p&lt;/code&gt;是&lt;code&gt;s&lt;/code&gt;的anagram的index。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Anagram意思指僅使用一次包含的所有字元的排列組合。如以下例子
+Input: s = &amp;ldquo;cbaebabacd&amp;rdquo;, p = &amp;ldquo;abc&amp;rdquo;
+Output: [0,6]
+[0-2]的&amp;quot;cba&amp;quot;是p的anagram，而[6-8]的&amp;quot;bac&amp;quot;也是p的anagram。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;演算法概念-1&#34;&gt;演算法概念&lt;/h4&gt;
+&lt;p&gt;一開始想到的方法，除了暴力法外，若想要把搜尋限制在線性，我想到可以用sliding window+數數的方法。
+也就是說，因為在此題中，s, p限制了內容只會是小寫字母，因此我們可以直接使用一個map將26個字母的數量存起來。同樣的，使用l+r指標，框住目前的window，使用r指標依序檢查s[r]是否有在p map當中，有的話那就減一，但如果扣到&amp;lt;0，跟&lt;strong&gt;p字串不存在這個字母&lt;/strong&gt;的情況一樣，那就移到下一個window檢查，也就是&lt;code&gt;l+=1&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;當p的這個map每個字母都扣完了，代表目前這個window就是我們要找的anagram。&lt;/p&gt;
+&lt;h4 id=&#34;程式實作-1&#34;&gt;程式實作&lt;/h4&gt;
+&lt;p&gt;pMap代表p字串中各個字母的數量。pTotal是pMap的總和，一開始pTotal==p.size()。
+&lt;code&gt;pM&lt;/code&gt;與&lt;code&gt;pT&lt;/code&gt;是每個window的比較基準，因為每個符合的window都是anagram of p。&lt;code&gt;pM&lt;/code&gt;與&lt;code&gt;pT&lt;/code&gt;是從原本的pMap, pTotal copy過來的。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;findAnagrams&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;indexs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;indexs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+
+    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pMap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;26&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pTotal&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;pMap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;sc&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pTotal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pM&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;26&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;memcpy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pM&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pMap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;26&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;sizeof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+
+        &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pM&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;sc&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;pT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                &lt;span class=&#34;n&#34;&gt;indexs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;indexs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;小結&#34;&gt;小結&lt;/h2&gt;
+&lt;p&gt;使用兩個題目來解釋sliding window的概念，希望能幫助到也感到困惑的人。也提醒自己不要忘了主要的重點：使用l,r固定住檢查範圍，在每次檢查針對題目要求更新window的大小。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>移居巴黎</title>
+        <link>https://miyaya.github.io/p/%E7%A7%BB%E5%B1%85%E5%B7%B4%E9%BB%8E/</link>
+        <pubDate>Sun, 12 Dec 2021 15:55:38 +0100</pubDate>
+        
+        <guid>https://miyaya.github.io/p/%E7%A7%BB%E5%B1%85%E5%B7%B4%E9%BB%8E/</guid>
+        <description>&lt;img src="https://miyaya.github.io/p/%E7%A7%BB%E5%B1%85%E5%B7%B4%E9%BB%8E/IMG_6777.jpeg" alt="Featured image of post 移居巴黎" /&gt;&lt;p&gt;2021年12月5日，我從台北桃園機場離境，我心想這次離境，是真的跟台灣的暖冬、還有輕鬆的日子告別，重回尋找工作的循環。&lt;/p&gt;
+&lt;p&gt;前陣子跟學生時期打工的店長敘舊，我們那天在一個DevOps的活動會場，他指著一本「到日本當工程師」的書說，你也該出本書，就叫&lt;strong&gt;嫁到巴黎當&lt;del&gt;人妻&lt;/del&gt;工程師&lt;/strong&gt;，人妻那邊畫掉，他補充道。
+我覺得也是挺可愛的，因此想說不妨將這段過程寫下來，或許記錄下總能有點用。&lt;/p&gt;
+&lt;p&gt;才剛落地不久，就被滿心準備迎接我的男友傳染了感冒。冬天的歐洲大概就是這樣歡迎旅客的。&lt;/p&gt;
+&lt;p&gt;雖說出發前給自己打了很多強心針，洗腦式的跟自己說一定可以找到dev/eng類的工作，但在假期期間落地，總還是不免想拖延到聖誕節結束（或更久）。恰巧的是，剛好有個朋友詢問在歐洲工作的事。
+時運就是這麼剛好，彷彿命運說著&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;喔拜託、你已經休息夠久了！趕快動起來！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;稍微看了一下現在就業市場的情況與自己的技能點分佈，應該花一些時間可以找到一份backend的工作。只不過不滿足於現況的我，想著是否能突破web的領域，做一些別的domain的事&amp;hellip;
+因此，如果剛好有人看到這篇文章，歡迎推薦時下的新技術、或新工具:)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>關於我</title>
+        <link>https://miyaya.github.io/%E9%97%9C%E6%96%BC%E6%88%91/</link>
+        <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://miyaya.github.io/%E9%97%9C%E6%96%BC%E6%88%91/</guid>
+        <description>&lt;img src="https://miyaya.github.io/%E9%97%9C%E6%96%BC%E6%88%91/IMG_6755.jpeg" alt="Featured image of post 關於我" /&gt;&lt;h2 id=&#34;哈囉-我是-miya-ﾉヮﾉﾟ&#34;&gt;哈囉, 我是 Miya (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧&lt;/h2&gt;
+&lt;p&gt;我是Miya Lee，一個旅居巴黎的軟體工程師。&lt;/p&gt;
+&lt;p&gt;我熱衷於開發網頁、應用程式等各種軟體。擅長於後端開發，主要使用的程式包含 &lt;code&gt;C/C++&lt;/code&gt;, &lt;code&gt;JavaScript (Node.js)&lt;/code&gt;, &lt;code&gt;C#&lt;/code&gt;。
+目前正積極尋找巴黎或遠端辦公的全職後端/軟體工程師，同時也努力學習前端(&lt;code&gt;React&lt;/code&gt;)。&lt;/p&gt;
+&lt;p&gt;同時，我也在學法文&amp;hellip; 我認為這比任何一個程式語言都還要困難。除此之外，我喜歡動畫、繪本、浪漫喜劇，還有旅遊。&lt;/p&gt;
+&lt;h2 id=&#34;關於這個網站&#34;&gt;關於這個網站&lt;/h2&gt;
+&lt;p&gt;2022 開始記錄起巴黎旅居觀察、社會新鮮人的反思、生活與職場上持續學習的筆記。
+希望最終能活得漂亮且精彩，如果能有時記錄下來就好了。&lt;/p&gt;
+&lt;p&gt;導覽處附上我所有的社群媒體，雖不免感到有點赤裸(o´罒`o)，但統整在一起似乎也方便一些。
+也提供了 3 種語言，希望可以提升讀者的方便性，不過目前筆者語言能力有限的關係，我還在慢慢增添內容，請多見諒。&lt;/p&gt;
+&lt;h2 id=&#34;過去經歷&#34;&gt;過去經歷&lt;/h2&gt;
+&lt;p&gt;2021 年末來到巴黎，在這之前不知從何而來的興趣推著我慢慢地學著法文，現在的能力要生存下來還過得去。在這之前都在台灣生活，慶幸的是我接收到的教育應該算是亞洲的非典型例子，飲食習慣也是，所以現在才能過著每天吃馬鈴薯的快樂生活吧。&lt;/p&gt;
+&lt;h3 id=&#34;教育背景&#34;&gt;教育背景&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2017-2020&lt;/em&gt; &lt;strong&gt;資訊工程學系 工程學士&lt;/strong&gt; 國立台灣師範大學&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2013-2017&lt;/em&gt;  理學士肄業 國立台灣大學&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;工作經歷&#34;&gt;工作經歷&lt;/h3&gt;
+&lt;h4 id=&#34;軟體工程師-新加坡商鈦鉭科技&#34;&gt;&lt;strong&gt;軟體工程師&lt;/strong&gt; 新加坡商鈦鉭科技&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;2020.12-2021.06&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;C#&lt;/code&gt;, &lt;code&gt;.NET CORE&lt;/code&gt;, &lt;code&gt;GCP&lt;/code&gt;, &lt;code&gt;Kubernetes&lt;/code&gt;, &lt;code&gt;GitLab&lt;/code&gt;, &lt;code&gt;MySQL&lt;/code&gt;, &lt;code&gt;Redis&lt;/code&gt;, &lt;code&gt;gRPC&lt;/code&gt;, &lt;code&gt;React&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;與團隊 (後端、前端、mobile) 設計並開發手機遊戲，主要負責串接遊戲商與平台商 API&lt;/li&gt;
+&lt;li&gt;從零到一開發後台網頁，使用微服務 (Micro-service) 設計模式，網頁主要功能為製作報表與管理玩家&lt;/li&gt;
+&lt;li&gt;部署上述兩個專案並協助客服團隊解決、排除日常可能產生的問題&lt;/li&gt;
+&lt;li&gt;透過消除 legacy code 使得效率提升一倍&lt;/li&gt;
+&lt;li&gt;整理訓練資源，在職期間分享給3位新進員工，省下團隊重新訓練的時間&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;實習後端工程師-精誠隨想&#34;&gt;&lt;strong&gt;實習後端工程師&lt;/strong&gt; 精誠隨想&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;2019.07-2020.01&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;TypeScript&lt;/code&gt;, &lt;code&gt;Node.js&lt;/code&gt;, &lt;code&gt;Express&lt;/code&gt;, &lt;code&gt;MySQL&lt;/code&gt;, &lt;code&gt;C#&lt;/code&gt;, &lt;code&gt;.NET CORE&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 MVC 設計模式與 RESTful API 實作後台網頁的權限管理功能，根據不同角色顯示相對應網頁選項&lt;/li&gt;
+&lt;li&gt;於現有 App 中新增功能，並維持程式風格一致&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>過去的文章</title>
+        <link>https://miyaya.github.io/archives/</link>
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://miyaya.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>搜尋</title>
+        <link>https://miyaya.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://miyaya.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
 </rss>
