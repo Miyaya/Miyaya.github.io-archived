@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Miyaㄉ網站</title>
+        <link>https://miyaya.github.io/page/</link>
+        <description>Recent content in Pages on Miyaㄉ網站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://miyaya.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>關於我</title>
+        <link>https://miyaya.github.io/%E9%97%9C%E6%96%BC%E6%88%91/</link>
+        <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://miyaya.github.io/%E9%97%9C%E6%96%BC%E6%88%91/</guid>
+        <description>&lt;img src="https://miyaya.github.io/%E9%97%9C%E6%96%BC%E6%88%91/IMG_6755.jpeg" alt="Featured image of post 關於我" /&gt;&lt;h2 id=&#34;哈囉-我是-miya-ﾉヮﾉﾟ&#34;&gt;哈囉, 我是 Miya (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧&lt;/h2&gt;
+&lt;p&gt;我是Miya Lee，一個旅居巴黎的軟體工程師。&lt;/p&gt;
+&lt;p&gt;我熱衷於開發網頁、應用程式等各種軟體。擅長於後端開發，主要使用的程式包含 &lt;code&gt;C/C++&lt;/code&gt;, &lt;code&gt;JavaScript (Node.js)&lt;/code&gt;, &lt;code&gt;C#&lt;/code&gt;。
+目前正積極尋找巴黎或遠端辦公的全職後端/軟體工程師，同時也努力學習前端(&lt;code&gt;React&lt;/code&gt;)。&lt;/p&gt;
+&lt;p&gt;同時，我也在學法文&amp;hellip; 我認為這比任何一個程式語言都還要困難。除此之外，我喜歡動畫、繪本、浪漫喜劇，還有旅遊。&lt;/p&gt;
+&lt;h2 id=&#34;關於這個網站&#34;&gt;關於這個網站&lt;/h2&gt;
+&lt;p&gt;2022 開始記錄起巴黎旅居觀察、社會新鮮人的反思、生活與職場上持續學習的筆記。
+希望最終能活得漂亮且精彩，如果能有時記錄下來就好了。&lt;/p&gt;
+&lt;p&gt;導覽處附上我所有的社群媒體，雖不免感到有點赤裸(o´罒`o)，但統整在一起似乎也方便一些。
+也提供了 3 種語言，希望可以提升讀者的方便性，不過目前筆者語言能力有限的關係，我還在慢慢增添內容，請多見諒。&lt;/p&gt;
+&lt;h2 id=&#34;過去經歷&#34;&gt;過去經歷&lt;/h2&gt;
+&lt;p&gt;2021 年末來到巴黎，在這之前不知從何而來的興趣推著我慢慢地學著法文，現在的能力要生存下來還過得去。在這之前都在台灣生活，慶幸的是我接收到的教育應該算是亞洲的非典型例子，飲食習慣也是，所以現在才能過著每天吃馬鈴薯的快樂生活吧。&lt;/p&gt;
+&lt;h3 id=&#34;教育背景&#34;&gt;教育背景&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2017-2020&lt;/em&gt; &lt;strong&gt;資訊工程學系 工程學士&lt;/strong&gt; 國立台灣師範大學&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2013-2017&lt;/em&gt;  理學士肄業 國立台灣大學&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;工作經歷&#34;&gt;工作經歷&lt;/h3&gt;
+&lt;h4 id=&#34;軟體工程師-新加坡商鈦鉭科技&#34;&gt;&lt;strong&gt;軟體工程師&lt;/strong&gt; 新加坡商鈦鉭科技&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;2020.12-2021.06&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;C#&lt;/code&gt;, &lt;code&gt;.NET CORE&lt;/code&gt;, &lt;code&gt;GCP&lt;/code&gt;, &lt;code&gt;Kubernetes&lt;/code&gt;, &lt;code&gt;GitLab&lt;/code&gt;, &lt;code&gt;MySQL&lt;/code&gt;, &lt;code&gt;Redis&lt;/code&gt;, &lt;code&gt;gRPC&lt;/code&gt;, &lt;code&gt;React&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;與團隊 (後端、前端、mobile) 設計並開發手機遊戲，主要負責串接遊戲商與平台商 API&lt;/li&gt;
+&lt;li&gt;從零到一開發後台網頁，使用微服務 (Micro-service) 設計模式，網頁主要功能為製作報表與管理玩家&lt;/li&gt;
+&lt;li&gt;部署上述兩個專案並協助客服團隊解決、排除日常可能產生的問題&lt;/li&gt;
+&lt;li&gt;透過消除 legacy code 使得效率提升一倍&lt;/li&gt;
+&lt;li&gt;整理訓練資源，在職期間分享給3位新進員工，省下團隊重新訓練的時間&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;實習後端工程師-精誠隨想&#34;&gt;&lt;strong&gt;實習後端工程師&lt;/strong&gt; 精誠隨想&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;2019.07-2020.01&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;TypeScript&lt;/code&gt;, &lt;code&gt;Node.js&lt;/code&gt;, &lt;code&gt;Express&lt;/code&gt;, &lt;code&gt;MySQL&lt;/code&gt;, &lt;code&gt;C#&lt;/code&gt;, &lt;code&gt;.NET CORE&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 MVC 設計模式與 RESTful API 實作後台網頁的權限管理功能，根據不同角色顯示相對應網頁選項&lt;/li&gt;
+&lt;li&gt;於現有 App 中新增功能，並維持程式風格一致&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>過去的文章</title>
+        <link>https://miyaya.github.io/archives/</link>
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://miyaya.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>搜尋</title>
+        <link>https://miyaya.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://miyaya.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
