@@ -1,7 +1,7 @@
 ---
-title: "January 2023 Journal"
-date: 2023-04-04T12:02:21+02:00
-draft: true
+title: "January 23 Journal"
+date: 2023-04-04T12:18:40+02:00
+draft: false
 ---
 
 # January 2023 Journal - 《生時間》的讀後心得+應用Notion模板、有聲書體驗
