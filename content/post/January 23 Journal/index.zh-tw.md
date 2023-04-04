@@ -1,8 +1,15 @@
 ---
-title: "January 23 Journal"
+title: "January 23 Journal - 《生時間》的讀後心得+應用Notion模板、有聲書體驗"
 date: 2023-04-04T12:18:40+02:00
-draft: false
+description:
+slug: 
+image: 
+categories:
+    - Life
+tags:
+    - Paris
 ---
+
 
 # January 2023 Journal - 《生時間》的讀後心得+應用Notion模板、有聲書體驗
 

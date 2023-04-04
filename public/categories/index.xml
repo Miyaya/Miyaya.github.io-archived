@@ -6,20 +6,20 @@
         <description>Recent content in Categories on Miyaㄉ網站</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 03 Feb 2022 14:54:57 +0100</lastBuildDate><atom:link href="https://miyaya.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 04 Apr 2023 12:18:40 +0200</lastBuildDate><atom:link href="https://miyaya.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Life</title>
+        <link>https://miyaya.github.io/categories/life/</link>
+        <pubDate>Tue, 04 Apr 2023 12:18:40 +0200</pubDate>
+        
+        <guid>https://miyaya.github.io/categories/life/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>CSIE</title>
         <link>https://miyaya.github.io/categories/csie/</link>
         <pubDate>Thu, 03 Feb 2022 14:54:57 +0100</pubDate>
         
         <guid>https://miyaya.github.io/categories/csie/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Life</title>
-        <link>https://miyaya.github.io/categories/life/</link>
-        <pubDate>Sun, 12 Dec 2021 15:55:38 +0100</pubDate>
-        
-        <guid>https://miyaya.github.io/categories/life/</guid>
         <description></description>
         </item>
         
